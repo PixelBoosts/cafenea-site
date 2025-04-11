@@ -156,3 +156,25 @@ nav a:hover {
   font-weight: bold;
   color: #8d6e63;
 }
+
+.about-section {
+  background-color: #f6f1e7;
+  color: #5a3e2b;
+  padding: 60px 20px;
+  text-align: center;
+  border-top: 2px solid #d1bfa3;
+  border-bottom: 2px solid #d1bfa3;
+}
+
+.about-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+.about-section p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
