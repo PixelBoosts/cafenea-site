@@ -773,3 +773,34 @@ body.dark-mode {
   transform: translateY(-5px);
   background-color: #4e342e;
 }
+
+.faq {
+  background-color: #f5f5f5;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.faq h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.faq-item {
+  background-color: #fff;
+  margin: 15px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 800px;
+}
+
+.faq-item h3 {
+  font-size: 24px;
+  color: #795548;
+}
+
+.faq-item p {
+  font-size: 16px;
+  color: #333;
+}
