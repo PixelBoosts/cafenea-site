@@ -178,3 +178,41 @@ nav a:hover {
   font-size: 18px;
   line-height: 1.6;
 }
+
+.menu-section {
+  background-color: #fffaf3;
+  color: #4b2e1d;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.menu-section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-family: 'Playfair Display', serif;
+}
+
+.menu-category {
+  margin-bottom: 40px;
+}
+
+.menu-category h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #7a4f29;
+}
+
+.menu-category ul {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.menu-category li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px dashed #c2b49d;
+  font-size: 18px;
+}
