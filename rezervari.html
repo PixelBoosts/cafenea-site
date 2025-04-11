@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rezervă o masă - Cafenea Magică</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Acasă</a>
+    <a href="meniu.html">Meniu</a>
+    <a href="contact.html">Contact</a>
+    <a href="rezervari.html">Rezervă o masă</a>
+  </nav>
+
+  <section class="rezervari">
+    <h2>Rezervă o masă</h2>
+
+    <form action="submit_reservare.php" method="POST">
+      <label for="nume">Nume:</label>
+      <input type="text" id="nume" name="nume" required>
+
+      <label for="data">Data rezervării:</label>
+      <input type="date" id="data" name="data" required>
+
+      <label for="ora">Ora rezervării:</label>
+      <input type="time" id="ora" name="ora" required>
+
+      <label for="persoane">Număr persoane:</label>
+      <input type="number" id="persoane" name="persoane" required>
+
+      <button type="submit">Rezervă acum</button>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <p>© 2025 Cafenea Magică</p>
+  </footer>
+
+</body>
+</html>
