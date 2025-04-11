@@ -10,6 +10,23 @@
 </head>
   <script src="script.js"></script>
 
+  <script>
+  function toggleMode() {
+    const body = document.body;
+    const button = document.getElementById("mode-toggle");
+
+    // Toggle class pentru dark mode
+    body.classList.toggle("dark-mode");
+
+    // Schimbă textul butonului în funcție de mod
+    if (body.classList.contains("dark-mode")) {
+      button.textContent = "🌕 Mod luminos";
+    } else {
+      button.textContent = "🌙 Mod întunecat";
+    }
+  }
+</script>
+
 <body>
 
   <header>
