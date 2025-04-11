@@ -393,3 +393,18 @@ html {
 <section id="despre-noi">
   <!-- conținut -->
 </section>
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <h3>Cafenea Magică ☕</h3>
+    <p>Ne găsești pe social media sau la locația noastră din Craiova.</p>
+
+    <div class="socials">
+      <a href="https://instagram.com/profilultau" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://youtube.com/profilultau" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="mailto:contact@cafeneamagica.ro"><i class="fas fa-envelope"></i></a>
+    </div>
+
+    <p class="copyright">© 2025 Cafenea Magică. Toate drepturile rezervate.</p>
+  </div>
+</footer>
