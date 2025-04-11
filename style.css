@@ -602,3 +602,46 @@ html {
 .produs:hover {
   transform: scale(1.05);
 }
+
+.testimoniale {
+  background-color: #f3e5ab;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimoniale h2 {
+  font-size: 32px;
+  color: #4e342e;
+  margin-bottom: 40px;
+}
+
+.testi-boxuri {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.testi {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.testi:hover {
+  transform: scale(1.05);
+}
+
+.testi p {
+  font-style: italic;
+  color: #5d4037;
+}
+
+.testi h4 {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #3e2723;
+}
