@@ -288,3 +288,33 @@ nav a:hover {
 .contact-form button:hover {
   background-color: #5f3e1e;
 }
+
+.site-footer {
+  background-color: #4a342a;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.site-footer .footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.site-footer .social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.site-footer .social-icons img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.site-footer .social-icons img:hover {
+  transform: scale(1.2);
+}
