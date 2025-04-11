@@ -1,0 +1,23 @@
+# Exclude fișierele generate de IDE-uri
+.idea/
+.vscode/
+
+# Exclude fișierele temporare
+*.log
+*.tmp
+
+# Exclude fișierele care conțin setări de mediu
+.env
+
+# Exclude folderele care conțin fișiere de build sau dependințe
+node_modules/
+bower_components/
+
+# Exclude fișierele OS (sistem de operare)
+.DS_Store   # (pentru macOS)
+Thumbs.db   # (pentru Windows)
+
+# Exclude fișiere de compilare
+*.class
+*.pyc
+
