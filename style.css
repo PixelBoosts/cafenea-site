@@ -383,3 +383,13 @@ nav {
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* un mic efect de umbră */
 }
+html {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+<section id="despre-noi">
+  <!-- conținut -->
+</section>
