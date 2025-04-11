@@ -764,3 +764,12 @@ body.dark-mode {
 .site-footer p {
   font-size: 14px;
 }
+
+.social-icon {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: translateY(-5px);
+  background-color: #4e342e;
+}
