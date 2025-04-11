@@ -374,3 +374,12 @@ nav a:hover {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* === Navbar Sticky === */
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white; /* sau culoarea ta */
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* un mic efect de umbră */
+}
