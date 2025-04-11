@@ -691,3 +691,36 @@ html {
 .rezervari button:hover {
   background-color: #6a4e23;
 }
+
+/* Moduri de bază */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Butonul pentru schimbarea modului */
+#mode-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #795548;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+#mode-toggle:hover {
+  background-color: #6a4e23;
+}
