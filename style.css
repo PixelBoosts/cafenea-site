@@ -645,3 +645,49 @@ html {
   font-weight: bold;
   color: #3e2723;
 }
+.rezervari {
+  padding: 60px 20px;
+  background-color: #fefefe;
+  text-align: center;
+}
+
+.rezervari h2 {
+  font-size: 32px;
+  color: #4e342e;
+  margin-bottom: 30px;
+}
+
+.rezervari form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rezervari label {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.rezervari input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.rezervari button {
+  background-color: #795548;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.rezervari button:hover {
+  background-color: #6a4e23;
+}
