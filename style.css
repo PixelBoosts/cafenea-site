@@ -318,3 +318,47 @@ nav a:hover {
 .site-footer .social-icons img:hover {
   transform: scale(1.2);
 }
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 28px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-content img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .menu-section {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-section iframe {
+    width: 100%;
+  }
+
+  .contact-form {
+    padding: 0 10px;
+  }
+
+  .site-footer .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .site-footer .social-icons img {
+    width: 25px;
+    height: 25px;
+  }
+}
